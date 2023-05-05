@@ -1,0 +1,25 @@
+.card{
+    width: 500px;
+    height: 200px;
+    background-color: green;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 10px;
+    .buttons{
+        display: flex;
+        gap: 15px;
+        button{
+            width: 60px;
+            height: 40px;
+            background: brown;
+            cursor: pointer;
+            border-radius: 6px;
+        }
+    }
+    .counter{
+        font-size: 50px;
+    }
+}
